@@ -1,0 +1,108 @@
+$jj-green: (
+  50: #f4fff7,
+  100: #bbffe2,
+  200: #65fcc9,
+  300: #41deae,
+  400: #00c294,
+  500: #00a47d,
+  600: #008766,
+  // primary
+  700: #006c51,
+  800: #00513c,
+  900: #003828,
+  contrast: (
+    50: #002116,
+    100: #002116,
+    200: #002116,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+  ),
+);
+
+$jj-green-2: (
+  50: #f4fff7,
+  100: #dcf7e9,
+  200: #cee9db,
+  300: #b3ccbf,
+  400: #98b1a4,
+  500: #7e968a,
+  600: #647c71,
+  // primary
+  700: #4c6359,
+  800: #354c42,
+  900: #1e352c,
+  contrast: (
+    50: #002116,
+    100: #002116,
+    200: #002116,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+  ),
+);
+
+$jj-red: (
+  50: #fffbff,
+  100: #ffedea,
+  200: #ffdad6,
+  300: #ffb4ab,
+  400: #ff897d,
+  500: #ff5449,
+  600: #de3730,
+  // primary
+  700: #ba1a1a,
+  800: #93000a,
+  900: #690005,
+  contrast: (
+    50: #002116,
+    100: #002116,
+    200: #002116,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+  ),
+);
+
+$jj-blue: (
+  50: #fafcff,
+  100: #e1f3ff,
+  200: #c2e8fd,
+  300: #a7cce0,
+  400: #8cb0c4,
+  500: #7196a9,
+  600: #587c8e,
+  // primary
+  700: #3f6375,
+  800: #264b5c,
+  900: #0a3445,
+  contrast: (
+    50: #002116,
+    100: #002116,
+    200: #002116,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+  ),
+);
+
+$my-primary: mat.define-palette($jj-green, 700, 200, 900);
+$my-accent: mat.define-palette($jj-green-2, 700, 200, 900);
+$my-warn: mat.define-palette($jj-red, 700, 200, 900);
+$my-tertiary: mat.define-palette($jj-blue, 700, 200, 900);
