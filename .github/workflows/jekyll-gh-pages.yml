@@ -36,6 +36,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - name: Install Angular Cli
+        run: npm install -g @angular/cli
       - name: Build
         run: npm run build-prod
 
