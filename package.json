@@ -2,6 +2,9 @@
   "name": "angular",
   "version": "0.0.0",
   "private": true,
+  "stackblitz": {
+    "startCommand": "npm run build-prod"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
