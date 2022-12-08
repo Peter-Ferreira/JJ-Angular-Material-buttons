@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "stackblitz": {
-    "startCommand": "npm run build-prod"
+    "startCommand": "npm run build"
   },
   "scripts": {
     "ng": "ng",
