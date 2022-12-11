@@ -21,6 +21,17 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: NPM install
+        run: npm install
+      - name: Install Angular Cli
+        run: npm install -g @angular/cli
+      - name: Build
+        run: npm run build
+        
   # Single deploy job since we're just deploying
   deploy:
     environment:
