@@ -54,6 +54,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1 --source dist
+        uses: actions/deploy-pages@v1
+      
 
         
