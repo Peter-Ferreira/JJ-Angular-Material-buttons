@@ -52,7 +52,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: './'
       - name: Change working Directory
         run: cd src
       - name: Deploy to GitHub Pages
