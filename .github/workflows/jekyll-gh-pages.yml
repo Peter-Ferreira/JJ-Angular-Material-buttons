@@ -55,7 +55,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
       - name: Deploy 🚀
-        uses: Peter-Ferreira/JJ-Angular-Material-buttons@v3
+        uses: Peter-Ferreira/JJ-Angular-Material-buttons@v1
         with:
           folder: dist # The folder the action should deploy.
         
