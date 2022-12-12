@@ -53,8 +53,6 @@ jobs:
         with:
           # Upload entire repository
           path: './src'
-      - name: Change working Directory
-        run: cd src
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
