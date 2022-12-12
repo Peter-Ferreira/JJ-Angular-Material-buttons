@@ -54,6 +54,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Deploy 🚀
+        uses: Peter-Ferreira/github-pages-deploy-action@v4
         with:
-          folder: dist
+          folder: dist # The folder the action should deploy.
         
