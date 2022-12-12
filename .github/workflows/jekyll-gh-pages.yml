@@ -56,12 +56,12 @@ jobs:
 #         uses: actions/deploy-pages@v1
 #         with:
 #           folder: dist # The folder the action should deploy.
-        - uses: actions/upload-artifact@v3
-          with:
-            name: my-artifact
-            path: dist
-#       - name: Deploy 🚀
-#         uses: Peter-Ferreira/JJ-Angular-Material-buttons@v1
-#         with:
-#           folder: dist # The folder the action should deploy.
+#         - uses: actions/upload-artifact@v3
+#           with:
+#             name: my-artifact
+#             path: dist
+      - name: Deploy 🚀
+        uses: actions/deploy-pages@v1
+        with:
+          folder: dist # The folder the action should deploy.
         
