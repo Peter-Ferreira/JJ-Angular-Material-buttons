@@ -43,6 +43,7 @@ jobs:
       - name: Build
         run: npm run build
 
+ 
   # Deployment job
   deploy:
     environment:
@@ -53,8 +54,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
-        with:
-          script: cd dist
+        uses: actions/deploy-pages@v1 --source dist
 
         
